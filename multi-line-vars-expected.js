@@ -1,9 +1,3 @@
-# p42sandbox
-
-
-"Split Multi-Variable Declarations" on multi-line-vars.js should ideally output:
-
-```
 function tokenize(input) {
   const parts = input.split(" ");
   const tokens = [];
@@ -15,5 +9,3 @@ function tokenize(input) {
 }
 
 console.log(tokenize("Hello, world! Here are words!"));
-```
-
