@@ -1,5 +1,8 @@
 function tokenize(input) {
-  var parts = input.split(" "), tokens = [], i, token;
+  var parts = input.split(" ");
+  var tokens = [];
+  var i;
+  var token;
   for(i=0;i<parts.length;i++) {
     token =parts[i].replace(/[^a-zA-Z]/, "");
     tokens.push(token);
